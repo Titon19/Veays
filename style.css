@@ -46,6 +46,13 @@ nav {
   height: 50px;
 }
 
+.dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 /* Home */
 .container-home {
   width: 100%;
