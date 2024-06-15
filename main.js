@@ -24,214 +24,6 @@ window.addEventListener("scroll", function () {
   shape1.style.marginTop = value * 0.5 + "px";
   shape2.style.marginTop = value * 0.5 + "px";
 
-  // function cekWidth() {
-  //   const screenWidth = window.innerWidth;
-  //   if (screenWidth > 991) {
-  //     if (value > 1700) {
-  //       imgParallax_1.style.padding = "60px";
-  //       imgParallax_1.style.filter = "grayscale(0)";
-  //     } else {
-  //       imgParallax_1.style.padding = "150px";
-  //       imgParallax_1.style.filter = "grayscale(1)";
-  //     }
-  //     if (value > 2250) {
-  //       imgParallax_2.style.padding = "60px";
-  //       imgParallax_2.style.filter = "grayscale(0)";
-  //     } else {
-  //       imgParallax_2.style.padding = "150px";
-  //       imgParallax_2.style.filter = "grayscale(1)";
-  //     }
-  //     if (value > 2900) {
-  //       imgParallax_3.style.padding = "60px";
-  //       imgParallax_3.style.filter = "grayscale(0)";
-  //     } else {
-  //       imgParallax_3.style.padding = "150px";
-  //       imgParallax_3.style.filter = "grayscale(1)";
-  //     }
-
-  //     if (value > 3500) {
-  //       parallaxText.style.fontWeight = "1000";
-  //       parallaxText.style.fontSize = "100px";
-  //     } else {
-  //       parallaxText.style.fontWeight = "500";
-  //       parallaxText.style.fontSize = "92px";
-  //     }
-  //     if (value > 6400) {
-  //       parallaxText_2.style.fontWeight = "1000";
-  //       parallaxText_2.style.fontSize = "100px";
-  //     } else {
-  //       parallaxText_2.style.fontWeight = "500";
-  //       parallaxText_2.style.fontSize = "92px";
-  //     }
-  //   } else if (screenWidth < 992) {
-  //     if (value > 1500) {
-  //       imgParallax_1.style.padding = "60px";
-  //       imgParallax_1.style.filter = "grayscale(0)";
-  //     } else {
-  //       imgParallax_1.style.padding = "150px";
-  //       imgParallax_1.style.filter = "grayscale(1)";
-  //     }
-  //     if (value > 2000) {
-  //       imgParallax_2.style.padding = "60px";
-  //       imgParallax_2.style.filter = "grayscale(0)";
-  //     } else {
-  //       imgParallax_2.style.padding = "150px";
-  //       imgParallax_2.style.filter = "grayscale(1)";
-  //     }
-  //     if (value > 2500) {
-  //       imgParallax_3.style.padding = "60px";
-  //       imgParallax_3.style.filter = "grayscale(0)";
-  //     } else {
-  //       imgParallax_3.style.padding = "150px";
-  //       imgParallax_3.style.filter = "grayscale(1)";
-  //     }
-
-  //     if (value > 3000) {
-  //       parallaxText.style.fontWeight = "1000";
-  //       parallaxText.style.fontSize = "100px";
-  //     } else {
-  //       parallaxText.style.fontWeight = "500";
-  //       parallaxText.style.fontSize = "92px";
-  //     }
-  //     if (value > 5500) {
-  //       parallaxText_2.style.fontWeight = "1000";
-  //       parallaxText_2.style.fontSize = "100px";
-  //     } else {
-  //       parallaxText_2.style.fontWeight = "500";
-  //       parallaxText_2.style.fontSize = "92px";
-  //     }
-  //   }
-  //   if (screenWidth < 768) {
-  //     if (value > 3150) {
-  //       imgParallax_1.style.padding = "70px";
-  //       imgParallax_1.style.filter = "grayscale(0)";
-  //     } else {
-  //       imgParallax_1.style.padding = "150px";
-  //       imgParallax_1.style.filter = "grayscale(1)";
-  //     }
-  //     if (value > 4300) {
-  //       imgParallax_2.style.padding = "70px";
-  //       imgParallax_2.style.filter = "grayscale(0)";
-  //     } else {
-  //       imgParallax_2.style.padding = "150px";
-  //       imgParallax_2.style.filter = "grayscale(1)";
-  //     }
-  //     if (value > 5400) {
-  //       imgParallax_3.style.padding = "70px";
-  //       imgParallax_3.style.filter = "grayscale(0)";
-  //     } else {
-  //       imgParallax_3.style.padding = "150px";
-  //       imgParallax_3.style.filter = "grayscale(1)";
-  //     }
-
-  //     if (value > 6500) {
-  //       parallaxText.style.fontWeight = "1000";
-  //       parallaxText.style.fontSize = "100px";
-  //     } else {
-  //       parallaxText.style.fontWeight = "500";
-  //       parallaxText.style.fontSize = "92px";
-  //     }
-  //     if (value > 11700) {
-  //       parallaxText_2.style.fontWeight = "1000";
-  //       parallaxText_2.style.fontSize = "62px";
-  //     } else {
-  //       parallaxText_2.style.fontWeight = "500";
-  //       parallaxText_2.style.fontSize = "48px";
-  //     }
-  //   } else if (screenWidth < 992) {
-  //     if (value > 1500) {
-  //       imgParallax_1.style.padding = "60px";
-  //       imgParallax_1.style.filter = "grayscale(0)";
-  //     } else {
-  //       imgParallax_1.style.padding = "150px";
-  //       imgParallax_1.style.filter = "grayscale(1)";
-  //     }
-  //     if (value > 2000) {
-  //       imgParallax_2.style.padding = "60px";
-  //       imgParallax_2.style.filter = "grayscale(0)";
-  //     } else {
-  //       imgParallax_2.style.padding = "150px";
-  //       imgParallax_2.style.filter = "grayscale(1)";
-  //     }
-  //     if (value > 2500) {
-  //       imgParallax_3.style.padding = "60px";
-  //       imgParallax_3.style.filter = "grayscale(0)";
-  //     } else {
-  //       imgParallax_3.style.padding = "150px";
-  //       imgParallax_3.style.filter = "grayscale(1)";
-  //     }
-
-  //     if (value > 3000) {
-  //       parallaxText.style.fontWeight = "1000";
-  //       parallaxText.style.fontSize = "100px";
-  //     } else {
-  //       parallaxText.style.fontWeight = "500";
-  //       parallaxText.style.fontSize = "92px";
-  //     }
-  //     if (value > 6200) {
-  //       parallaxText_2.style.fontWeight = "1000";
-  //       parallaxText_2.style.fontSize = "42px";
-  //     } else {
-  //       parallaxText_2.style.fontWeight = "500";
-  //       parallaxText_2.style.fontSize = "32px";
-  //     }
-  //   }
-  //   if (screenWidth < 640) {
-  //     if (value > 1800) {
-  //       imgParallax_1.style.padding = "30px";
-  //       imgParallax_1.style.filter = "grayscale(0)";
-  //     } else {
-  //       imgParallax_1.style.padding = "50px 130px 50px 130px ";
-  //       imgParallax_1.style.filter = "grayscale(1)";
-  //     }
-  //     if (value > 2300) {
-  //       imgParallax_2.style.padding = "30px";
-  //       imgParallax_2.style.filter = "grayscale(0)";
-  //     } else {
-  //       imgParallax_2.style.padding = "50px 130px 50px 130px ";
-  //       imgParallax_2.style.filter = "grayscale(1)";
-  //     }
-  //     if (value > 2750) {
-  //       imgParallax_3.style.padding = "30px";
-  //       imgParallax_3.style.filter = "grayscale(0)";
-  //     } else {
-  //       imgParallax_3.style.padding = "50px 130px 50px 130px ";
-  //       imgParallax_3.style.filter = "grayscale(1)";
-  //     }
-  //     if (value > 3500) {
-  //       parallaxText.style.fontWeight = "1000";
-  //       parallaxText.style.fontSize = "70px";
-  //     } else {
-  //       parallaxText.style.fontWeight = "500";
-  //       parallaxText.style.fontSize = "60px";
-  //     }
-  //     if (value > 6200) {
-  //       parallaxText_2.style.fontWeight = "1000";
-  //       parallaxText_2.style.fontSize = "52px";
-  //     } else {
-  //       parallaxText_2.style.fontWeight = "500";
-  //       parallaxText_2.style.fontSize = "42px";
-  //     }
-  //   }
-  //   if (screenWidth < 467) {
-  //     if (value > 3300) {
-  //       parallaxText.style.fontWeight = "1000";
-  //       parallaxText.style.fontSize = "70px";
-  //     } else {
-  //       parallaxText.style.fontWeight = "500";
-  //       parallaxText.style.fontSize = "60px";
-  //     }
-  //     if (value > 7000) {
-  //       parallaxText_2.style.fontWeight = "1000";
-  //       parallaxText_2.style.fontSize = "42px";
-  //     } else {
-  //       parallaxText_2.style.fontWeight = "500";
-  //       parallaxText_2.style.fontSize = "32px";
-  //     }
-  //   }
-  // }
-  // window.addEventListener("resize", cekWidth);
-  // cekWidth();
 });
 
 function navToggle() {
@@ -246,3 +38,49 @@ function navToggle() {
         : "block"
       : (burgerNav.style.display = "block");
 }
+
+const homeContainer = document.querySelector(".container-home");
+const aboutContainer = document.querySelector(".container-about");
+const pesanContainer = document.querySelector(".container-pesan");
+const pictreContainer = document.querySelector(".container-picture");
+const navbar = document.querySelector("nav");
+const navbarToggler = document.querySelector(".navbar-toggler");
+
+const dropdown = document.querySelectorAll(".dropdown-item");
+const dropdownButton = document.querySelector(".dropdown button");
+const sekat = document.querySelector(".sekat");
+const github = document.querySelector(".github img");
+const footer = document.querySelector("#footer");
+dropdown.forEach((item) => {
+  item.addEventListener("click", function () {
+    const theme = this.getAttribute("data-theme");
+
+    if (theme === "light") {
+      document.documentElement.setAttribute("data-bs-theme", "light");
+      homeContainer.style.backgroundColor = "#ffffff";
+      aboutContainer.style.backgroundColor = "#ffffff";
+      pesanContainer.style.backgroundColor = "#ffffff";
+      navbar.style.backgroundColor = "#ffffff";
+      navbarToggler.style.borderColor = "#ffffff";
+      sekat.src = "images/sekat.png";
+      github.src = "images/github.png";
+      dropdownButton.classList.remove("btn-light");
+      dropdownButton.classList.add("btn-dark");
+      pictreContainer.style.backgroundColor = "#1e293b";
+      footer.style.backgroundColor = "#1e293b";
+    } else if (theme === "dark") {
+      document.documentElement.setAttribute("data-bs-theme", "dark");
+      homeContainer.style.backgroundColor = "#212529";
+      aboutContainer.style.backgroundColor = "#212529";
+      pesanContainer.style.backgroundColor = "#212529";
+      navbar.style.backgroundColor = "#212529";
+      navbarToggler.style.borderColor = "#212529";
+      sekat.src = "images/sekat-2.png";
+      github.src = "images/github-2.png";
+      dropdownButton.classList.remove("btn-dark");
+      dropdownButton.classList.add("btn-light");
+      pictreContainer.style.backgroundColor = "#212529";
+      footer.style.backgroundColor = "#212529";
+    }
+  });
+});
